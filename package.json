@@ -1,0 +1,23 @@
+{
+  "name": "@slimio/eslint-config",
+  "version": "1.0.0",
+  "description": "Slimio ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlimIO/eslint-config.git"
+  },
+  "keywords": [
+    "ESLint",
+    "Config"
+  ],
+  "author": "SlimIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SlimIO/eslint-config/issues"
+  },
+  "homepage": "https://github.com/SlimIO/eslint-config#readme"
+}
