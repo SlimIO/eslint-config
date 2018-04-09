@@ -1,6 +1,6 @@
 {
-  "name": "@slimio/eslint-config-slimio",
-  "version": "1.1.0",
+  "name": "@slimio/eslint-config",
+  "version": "1.1.1",
   "description": "Slimio ESLint configuration",
   "main": "index.js",
   "scripts": {
