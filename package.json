@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/SlimIO/eslint-config/issues"
   },
-  "homepage": "https://github.com/SlimIO/eslint-config#readme"
+  "homepage": "https://github.com/SlimIO/eslint-config#readme",
+  "dependencies": {}
 }
