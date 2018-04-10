@@ -208,10 +208,7 @@
             "error",
             3
         ],
-        "multiline-ternary": [
-            "error",
-            "always"
-        ],
+        "multiline-ternary": "off",
         "new-parens": "error",
         "no-lonely-if": "error",
         "no-multi-assign": "error",
