@@ -75,7 +75,7 @@
         "no-implied-eval": "error",
         "no-invalid-this": "error",
         "no-lone-blocks": "error",
-        "no-loop-func": "error",
+        "no-loop-func": "off",
         "no-multi-spaces": "error",
         "no-multi-str": "error",
         "no-new": "warn",
@@ -155,7 +155,10 @@
         ],
         "indent": [
             "error",
-            4
+            4,
+            {
+                "SwitchCase": 2
+            }
         ],
         "key-spacing": [
             "error",
