@@ -195,8 +195,8 @@
         "max-len": [
             "error",
             {
-                "code": 100,
-                "comments": 120
+                "code": 120,
+                "comments": 140
             }
         ],
         "max-lines": [
