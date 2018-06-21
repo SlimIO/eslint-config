@@ -78,7 +78,7 @@
         "no-loop-func": "off",
         "no-multi-spaces": "error",
         "no-multi-str": "error",
-        "no-new": "warn",
+        "no-new": "off",
         "no-new-func": "error",
         "no-param-reassign": [
             "error",
