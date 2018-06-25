@@ -178,12 +178,7 @@
                 "position": "above"
             }
         ],
-        "lines-around-comment": [
-            "error",
-            {
-                "beforeBlockComment": true
-            }
-        ],
+        "lines-around-comment": "off",
         "lines-between-class-members": [
             "error",
             "always"
@@ -278,7 +273,7 @@
         "space-unary-ops": "error",
         "spaced-comment": [
             "error",
-            "never"
+            "always"
         ],
         "template-tag-spacing": "error",
         "arrow-spacing": "error",
