@@ -4,6 +4,7 @@
   "description": "Slimio ESLint configuration",
   "main": "index.js",
   "scripts": {
+    "prepublish": "pkg-ok",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
     "url": "https://github.com/SlimIO/eslint-config/issues"
   },
   "homepage": "https://github.com/SlimIO/eslint-config#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "pkg-ok": "^2.3.1"
+  }
 }
