@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Slimio ESLint configuration",
   "main": "index.js",
+  "engines": {
+      "node": ">=8"
+  },
   "scripts": {
     "prepublish": "pkg-ok",
     "test": "echo \"Error: no test specified\" && exit 1"
