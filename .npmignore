@@ -1,5 +1,11 @@
-.editorconfig
-.gitignore
+test/
+tests/
+coverage/
+.nyc_output/
+docs/
+jsdoc.json
 CONTRIBUTING.md
-LICENSE
-README.md
+.editorconfig
+.eslintrc
+.gitignore
+commitlint.config.js
