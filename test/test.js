@@ -1,32 +1,22 @@
 "use strict";
 
-// Require Third-party Dependencies
-const Ajv = require("ajv");
+// Require Node.js dependencies
+const { join } = require("path");
+const { strictEqual } = require("assert");
 
-// Require Internal
-const schema = require("./eslint.schema.json");
-const rule = require("../index.js");
+// Require third-party dependencies
+const { CLIEngine } = require("eslint");
 
-// Merge all rules!
-rule.rules = {};
-rule.env = {};
+const engine = new CLIEngine({
+    configFile: join(__dirname, "..", "index.js")
+});
 
-for (const filePath of rule.extends) {
-    const payload = require(filePath);
-    if (payload.env) {
-        Object.assign(rule.env, payload.env);
-    }
-    Object.assign(rule.rules, payload.rules);
+const result = engine.executeOnText('', 'test.js');
+try {
+    strictEqual(result.errorCount, 0);
+    strictEqual(result.warningCount, 0);
 }
-delete rule.extends;
-
-// Validate
-const ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
-const validate = ajv.compile(schema);
-
-const isValid = validate(rule);
-if (!isValid) {
-    console.error(validate.errors);
-    throw new Error("Failed to validate Config");
+catch (err) {
+    console.error(JSON.stringify(result.results, null, 2));
+    throw err;
 }
-console.log("Succesfully validated ESLint config!")
