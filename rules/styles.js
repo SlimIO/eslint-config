@@ -156,7 +156,7 @@ const rules = {
     "no-array-constructor": "off",
 
     // See: https://eslint.org/docs/rules/no-bitwise
-    "no-bitwise": ["error", { "int32Hint": true }],
+    "no-bitwise": "off",
 
     // See: https://eslint.org/docs/rules/no-continue
     "no-continue": "off",
