@@ -1121,9 +1121,6 @@
                     "$ref": "#/definitions/rule",
                     "description": "Enforce placing object properties on separate lines"
                 },
-                "object-shorthand": {
-                    "$ref": "#/definitions/rule"
-                },
                 "one-var": {
                     "$ref": "#/definitions/rule",
                     "description": "Enforce variables to be declared either together or separately in functions"
