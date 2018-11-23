@@ -132,7 +132,7 @@ const rules = {
     "max-params": ["error", 3],
 
     // See: https://eslint.org/docs/rules/max-statements
-    "max-statements": ["error", 10, { "ignoreTopLevelFunctions": true }],
+    "max-statements": ["error", 30, { "ignoreTopLevelFunctions": true }],
 
     // See: https://eslint.org/docs/rules/max-statements-per-line
     "max-statements-per-line": "off",
