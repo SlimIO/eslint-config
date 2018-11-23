@@ -14,9 +14,9 @@ module.exports = {
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 9,
-        ecmaFeatures: {
-            impliedStrict: true
-        },
         sourceType: "module"
+    },
+    rules: {
+        strict: ["error", "global"]
     }
 }
