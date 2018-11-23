@@ -216,9 +216,7 @@ const rules = {
     "nonblock-statement-body-position": "off",
 
     // See: https://eslint.org/docs/rules/object-curly-newline
-    "object-curly-newline": [
-        "error", { "minProperties": 4 }
-    ],
+    "object-curly-newline": "off",
 
     // See: https://eslint.org/docs/rules/object-curly-spacing
     "object-curly-spacing": ["error", "always"],
