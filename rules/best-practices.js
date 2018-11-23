@@ -111,14 +111,7 @@ const rules = {
     "no-loop-func": "error",
 
     // See: https://eslint.org/docs/rules/no-magic-numbers
-    "no-magic-numbers": [
-        "warn",
-        {
-            "ignoreArrayIndexes": true,
-            "enforceConst": true,
-            "detectObjects": true
-        }
-    ],
+    "no-magic-numbers": "off",
 
     // See: https://eslint.org/docs/rules/no-multi-spaces
     "no-multi-spaces": "error",
