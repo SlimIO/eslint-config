@@ -150,7 +150,7 @@ const rules = {
     "new-parens": "error",
 
     // See: https://eslint.org/docs/rules/newline-per-chained-call
-    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 4 }],
 
     // See: https://eslint.org/docs/rules/no-array-constructor
     "no-array-constructor": "off",
