@@ -195,7 +195,7 @@ const rules = {
     "no-warning-comments": "off",
 
     // See: https://eslint.org/docs/rules/no-with
-    "no-width": "error",
+    "no-with": "error",
 
     // See: https://eslint.org/docs/rules/prefer-promise-reject-errors
     "prefer-promise-reject-errors": "error",

@@ -2,7 +2,7 @@
 
 const rules = {
     // See: https://eslint.org/docs/rules/array-bracket-newline
-    "array-bracket-nexline": ["error", { "minItems": 6 }],
+    "array-bracket-newline": ["error", { "minItems": 6 }],
 
     // See: https://eslint.org/docs/rules/array-bracket-spacing
     "array-bracket-spacing": ["error", "never"],
