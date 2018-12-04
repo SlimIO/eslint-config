@@ -23,3 +23,9 @@ Create an `.eslintrc` file at the root of your project with the following (JSON)
 Edit the file as you want by adding [custom rules](https://eslint.org/docs/rules/) if required !
 
 > Dont forget to install **ESLint as a DevDependencies**: `npm i eslint -D`
+
+## Why ?
+
+| rule name | value | why we choose this configuration |
+| --- | --- | --- |
+| indent | 4 | We are considering indent `2` not enougth for code visibility ! |
