@@ -1,7 +1,9 @@
 # ESLint Configuration
-![V2.0.3](https://img.shields.io/badge/version-2.0.3-blue.svg)
+![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/SlimIO/eslint-config/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SlimIO/Eslint-config/commit-activity)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/SlimIO/Eslint-config/blob/master/LICENSE)
+![size](https://img.shields.io/bundlephobia/min/@slimio/eslint-config.svg?style=flat)
+[![Build Status](https://travis-ci.com/SlimIO/Eslint-config.svg?branch=master)](https://travis-ci.com/SlimIO/Eslint-config)
 
 SlimIO [ESLint](https://eslint.org/) configuration
 
