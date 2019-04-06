@@ -2,7 +2,7 @@
 const { join } = require("path");
 
 // CONSTANTS
-const RULES_DIR = join(__dirname, "rules");
+const RULES_DIR = join(__dirname, "src");
 
 module.exports = {
     extends: [
