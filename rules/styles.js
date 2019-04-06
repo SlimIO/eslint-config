@@ -116,14 +116,7 @@ const rules = {
     ],
 
     // See: https://eslint.org/docs/rules/max-lines-per-function
-    "max-lines-per-function": [
-        "error",
-        {
-            "max": 100,
-            "skipBlankLines": true,
-            "skipComments": true
-        }
-    ],
+    "max-lines-per-function": "off",
 
     // See: https://eslint.org/docs/rules/max-nested-callbacks
     "max-nested-callbacks": ["error", 3],
