@@ -7,6 +7,9 @@
 
 SlimIO [ESLint](https://eslint.org/) configuration
 
+## Requirements
+- Node.js v10 or higher
+
 ## Getting Started
 
 This package is available in the Node Package Repository and can be easily installed with [npm](https://docs.npmjs.com/getting-started/what-is-npm) or [yarn](https://yarnpkg.com).
@@ -36,3 +39,6 @@ Edit the file as you want by adding [custom rules](https://eslint.org/docs/rules
 | --- | --- | --- |
 | indent | 4 | We are considering indent `2` not enougth for code visibility/readability |
 | semi | always | We are following the official TC39 ASI recommandation |
+
+## License
+MIT
