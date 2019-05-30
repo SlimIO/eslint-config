@@ -40,5 +40,9 @@ Edit the file as you want by adding [custom rules](https://eslint.org/docs/rules
 | indent | 4 | We are considering indent `2` not enougth for code visibility/readability |
 | semi | always | We are following the official TC39 ASI recommandation |
 
+## Dependencies
+
+This project have no dependencies.
+
 ## License
 MIT
