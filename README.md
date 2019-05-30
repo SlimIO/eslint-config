@@ -3,6 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SlimIO/Eslint-config/commit-activity)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/SlimIO/Eslint-config/blob/master/LICENSE)
 ![size](https://img.shields.io/bundlephobia/min/@slimio/eslint-config.svg?style=flat)
+![dep](https://img.shields.io/david/SlimIO/eslint-config.svg)
 [![Build Status](https://travis-ci.com/SlimIO/Eslint-config.svg?branch=master)](https://travis-ci.com/SlimIO/Eslint-config) [![Greenkeeper badge](https://badges.greenkeeper.io/SlimIO/Eslint-config.svg)](https://greenkeeper.io/)
 
 SlimIO [ESLint](https://eslint.org/) configuration
