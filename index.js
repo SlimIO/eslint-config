@@ -10,7 +10,8 @@ module.exports = {
         join(RULES_DIR, "best-practices.js"),
         join(RULES_DIR, "node.js"),
         join(RULES_DIR, "styles.js"),
-        join(RULES_DIR, "ecmascript6.js")
+        join(RULES_DIR, "ecmascript6.js"),
+        join(RULES_DIR, "jsdoc.js")
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 9,
@@ -18,5 +19,8 @@ module.exports = {
     },
     rules: {
         strict: ["error", "global"]
-    }
+    },
+    plugins: [
+        "jsdoc"
+    ]
 }
