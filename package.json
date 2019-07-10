@@ -1,6 +1,6 @@
 {
   "name": "@slimio/eslint-config",
-  "version": "2.0.4",
+  "version": "3.0.0",
   "description": "Slimio ESLint configuration",
   "main": "index.js",
   "engines": {
