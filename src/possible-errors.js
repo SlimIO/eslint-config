@@ -107,29 +107,6 @@ const rules = {
     // See: https://eslint.org/docs/rules/use-isnan
     "use-isnan": "error",
 
-    // See: https://eslint.org/docs/rules/valid-jsdoc
-    "valid-jsdoc": [
-        "error",
-        {
-            "prefer": {
-                "arg": "param",
-                "argument": "param",
-                "return": "return",
-                "virtual": "abstract"
-            },
-            "preferType": {
-                "Boolean": "Boolean",
-                "Number": "Number",
-                "object": "Object",
-                "String": "String"
-            },
-            "requireParamType": true,
-            "requireReturn": true,
-            "requireParamDescription": true,
-            "requireReturnDescription": false
-        }
-    ],
-
     // See: https://eslint.org/docs/rules/valid-typeof
     "valid-typeof": ["error", { "requireStringLiterals": true }]
 }

@@ -251,20 +251,6 @@ const rules = {
     // See: https://eslint.org/docs/rules/quotes
     "quotes": ["error", "double"],
 
-    // See: https://eslint.org/docs/rules/require-jsdoc
-    "require-jsdoc": [
-        "error",
-        {
-            "require": {
-                "FunctionDeclaration": false,
-                "MethodDefinition": true,
-                "ClassDeclaration": true,
-                "ArrowFunctionExpression": false,
-                "FunctionExpression": false
-            }
-        }
-    ],
-
     // See: https://eslint.org/docs/rules/semi
     "semi": ["error", "always"],
 
