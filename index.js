@@ -14,7 +14,7 @@ module.exports = {
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 9,
-        sourceType: "module"
+        sourceType: "script"
     },
     rules: {
         strict: ["error", "global"]
