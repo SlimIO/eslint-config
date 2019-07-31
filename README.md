@@ -9,7 +9,7 @@
 SlimIO [ESLint](https://eslint.org/) configuration
 
 ## Requirements
-- Node.js v10 or higher
+- [Node.js](https://nodejs.org/en/) v10 or higher
 
 ## Getting Started
 
