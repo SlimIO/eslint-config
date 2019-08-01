@@ -36,7 +36,7 @@
   "homepage": "https://github.com/SlimIO/eslint-config#readme",
   "dependencies": {
     "eslint": "^6.1.0",
-    "eslint-plugin-jsdoc": "^15.3.4"
+    "eslint-plugin-jsdoc": "^15.8.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
