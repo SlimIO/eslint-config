@@ -39,7 +39,7 @@
     "eslint-plugin-jsdoc": "^15.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
+    "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.0.0",
     "husky": "^3.0.2",
     "pkg-ok": "^2.3.1"
