@@ -75,7 +75,7 @@ const rules = {
     "prefer-spread": "error",
 
     // See: https://eslint.org/docs/rules/prefer-template
-    "prefer-template": "error",
+    "prefer-template": "off",
 
     // See: https://eslint.org/docs/rules/require-yield
     "require-yield": "error",
