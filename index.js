@@ -25,6 +25,8 @@ if (existsSync(manifestPath)) {
                 rules["require-await"] = "off";
                 rules["max-params"] = ["error", 4];
                 break;
+            case "napi":
+                rules["no-param-reassign"] = "off";
         }
     }
     catch (err) {
