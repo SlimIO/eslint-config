@@ -1,9 +1,36 @@
 "use strict";
 
+// Require Node.js Dependencies
+const { existsSync, readFileSync } = require("fs");
 const { join } = require("path");
+
+// Require Third-party Dependencies
+const TOML = require("@iarna/toml");
 
 // CONSTANTS
 const RULES_DIR = join(__dirname, "src");
+
+const rules = {
+    strict: ["error", "global"]
+};
+
+const manifestPath = join(process.cwd(), "slimio.toml");
+if (existsSync(manifestPath)) {
+    try {
+        const buf = readFileSync(manifestPath);
+        const { type = "package" } = TOML.parse(buf.toString());
+
+        switch(type.toLowerCase()) {
+            case "addon":
+                rules["require-await"] = "off";
+                rules["max-params"] = ["error", 4];
+                break;
+        }
+    }
+    catch (err) {
+        // Do nothing
+    }
+}
 
 module.exports = {
     extends: [
@@ -18,9 +45,7 @@ module.exports = {
         ecmaVersion: 9,
         sourceType: "script"
     },
-    rules: {
-        strict: ["error", "global"]
-    },
+    rules,
     plugins: [
         "jsdoc"
     ]

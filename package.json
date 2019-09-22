@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/SlimIO/eslint-config#readme",
   "dependencies": {
+    "@iarna/toml": "^2.2.3",
     "eslint": "^6.4.0",
     "eslint-plugin-jsdoc": "^15.9.2"
   },
