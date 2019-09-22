@@ -54,7 +54,7 @@ const rules = {
     "no-extra-boolean-cast": "error",
 
     // See: https://eslint.org/docs/rules/no-extra-parens
-    "no-extra-parens": "error",
+    "no-extra-parens": "off",
 
     // See: https://eslint.org/docs/rules/no-extra-semi
     "no-extra-semi": "error",
