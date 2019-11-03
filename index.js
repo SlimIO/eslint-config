@@ -14,6 +14,11 @@ const rules = {
     strict: ["error", "global"]
 };
 
+const parserOptions = {
+    ecmaVersion: 9,
+    sourceType: "script"
+};
+
 const manifestPath = join(process.cwd(), "slimio.toml");
 if (existsSync(manifestPath)) {
     try {
@@ -24,9 +29,11 @@ if (existsSync(manifestPath)) {
             case "addon":
                 rules["require-await"] = "off";
                 rules["max-params"] = ["error", 4];
+                parserOptions.sourceType = "module";
                 break;
             case "napi":
                 rules["no-param-reassign"] = "off";
+                break;
         }
     }
     catch (err) {
@@ -43,10 +50,8 @@ module.exports = {
         join(RULES_DIR, "ecmascript6.js"),
         join(RULES_DIR, "jsdoc.js")
     ].map(require.resolve),
-    parserOptions: {
-        ecmaVersion: 9,
-        sourceType: "script"
-    },
+    parser: "babel-eslint",
+    parserOptions,
     rules,
     plugins: [
         "jsdoc"

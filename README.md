@@ -43,7 +43,12 @@ Edit the file as you want by adding [custom rules](https://eslint.org/docs/rules
 
 ## Dependencies
 
-This project have no dependencies.
+|Name|Refactoring|Security Risk|Usage|
+|---|---|---|---|
+|[@iarna/toml](https://github.com/iarna/iarna-toml#readme)|Minor|Low|TBC|
+|[babel-eslint](https://github.com/babel/babel-eslint)|Minor|High|TBC|
+|[eslint](https://eslint.org)|Minor|High|TBC|
+|[eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc#readme)|Minor|High|TBC|
 
 ## License
 MIT
