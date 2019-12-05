@@ -102,7 +102,7 @@ const rules = {
     "no-unsafe-negation": "error",
 
     // See: https://eslint.org/docs/rules/require-atomic-updates
-    "require-atomic-updates": "error",
+    "require-atomic-updates": "off",
 
     // See: https://eslint.org/docs/rules/use-isnan
     "use-isnan": "error",
