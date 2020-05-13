@@ -8,7 +8,9 @@
   },
   "scripts": {
     "prepublishOnly": "pkg-ok",
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -38,12 +40,14 @@
     "@iarna/toml": "^2.2.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.0.0",
-    "eslint-plugin-jsdoc": "^25.4.0"
+    "eslint-plugin-jsdoc": "^25.4.0",
+    "snyk": "^1.320.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.2.5",
     "pkg-ok": "^2.3.1"
-  }
+  },
+  "snyk": true
 }
