@@ -6,7 +6,6 @@
 ![dep](https://img.shields.io/david/SlimIO/eslint-config.svg)
 [![Known Vulnerabilities](https://snyk.io//test/github/SlimIO/Eslint-config/badge.svg?targetFile=package.json)](https://snyk.io//test/github/SlimIO/Eslint-config?targetFile=package.json)
 [![Build Status](https://travis-ci.com/SlimIO/Eslint-config.svg?branch=master)](https://travis-ci.com/SlimIO/Eslint-config)
-[![Greenkeeper badge](https://badges.greenkeeper.io/SlimIO/Eslint-config.svg)](https://greenkeeper.io/)
 
 SlimIO [ESLint](https://eslint.org/) configuration
 
