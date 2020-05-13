@@ -3,7 +3,7 @@
 const rules = {
 
     // See: https://eslint.org/docs/rules/accessor-pairs
-    "accessor-pairs": ["error", { "getWithoutSet": true }],
+    "accessor-pairs": "off",
 
     // See: https://eslint.org/docs/rules/array-callback-return
     "array-callback-return": "error",
