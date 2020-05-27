@@ -12,8 +12,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-push": "nyc --reporter=lcov npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "coverage": "codecov"
     }
   },
   "repository": {
@@ -43,7 +44,9 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "codecov": "^3.7.0",
     "husky": "^4.2.5",
+    "nyc": "^15.0.1",
     "pkg-ok": "^2.3.1"
   }
 }
