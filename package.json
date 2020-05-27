@@ -8,13 +8,13 @@
   },
   "scripts": {
     "prepublishOnly": "pkg-ok",
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "coverage": "codecov"
   },
   "husky": {
     "hooks": {
       "pre-push": "nyc --reporter=lcov npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "coverage": "codecov"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "repository": {
