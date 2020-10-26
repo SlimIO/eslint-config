@@ -47,7 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@slimio/psp": "^0.11.1",
+    "@slimio/psp": "^0.12.1",
     "codecov": "^3.7.0",
     "cross-env": "^7.0.2",
     "husky": "^4.2.5",
