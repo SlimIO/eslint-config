@@ -42,7 +42,7 @@
     "@iarna/toml": "^2.2.5",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.1.0",
-    "eslint-plugin-jsdoc": "^25.4.3"
+    "eslint-plugin-jsdoc": "^35.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
