@@ -11,12 +11,6 @@
     "test": "cross-env psp && nyc --reporter=lcov node test/test.js",
     "coverage": "codecov"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SlimIO/eslint-config.git"
@@ -39,19 +33,17 @@
     "check-coverage": false
   },
   "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.0",
     "@iarna/toml": "^2.2.5",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.1.0",
-    "eslint-plugin-jsdoc": "^25.4.3"
+    "eslint": "^8.1.0",
+    "eslint-plugin-jsdoc": "^37.0.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@slimio/psp": "^0.11.1",
-    "codecov": "^3.7.0",
-    "cross-env": "^7.0.2",
-    "husky": "^4.2.5",
-    "nyc": "^15.0.1",
+    "@slimio/psp": "^0.12.3",
+    "codecov": "^3.8.3",
+    "cross-env": "^7.0.3",
+    "nyc": "^15.1.0",
     "pkg-ok": "^2.3.1"
   }
 }

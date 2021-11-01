@@ -15,7 +15,7 @@ const rules = {
 };
 
 const parserOptions = {
-    ecmaVersion: 9,
+    ecmaVersion: 2020,
     sourceType: "script"
 };
 
@@ -50,7 +50,7 @@ module.exports = {
         join(RULES_DIR, "ecmascript6.js"),
         join(RULES_DIR, "jsdoc.js")
     ].map(require.resolve),
-    parser: "babel-eslint",
+    parser: "@babel/eslint-parser",
     parserOptions,
     rules,
     plugins: [
