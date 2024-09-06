@@ -33,11 +33,11 @@
     "check-coverage": false
   },
   "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/eslint-parser": "^7.16.0",
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.6",
     "@iarna/toml": "^2.2.5",
-    "eslint": "^8.1.0",
-    "eslint-plugin-jsdoc": "^37.0.3"
+    "eslint": "^8.44.0",
+    "eslint-plugin-jsdoc": "^46.4.5"
   },
   "devDependencies": {
     "@slimio/psp": "^0.12.3",
